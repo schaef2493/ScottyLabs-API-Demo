@@ -1,0 +1,136 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	height: 100%;
+}
+
+body {
+	background-color: #FFF;
+	color: #414142;
+}
+
+#header {
+	position: relative;
+	box-sizing: border-box;
+	min-width: 861px;
+	width: auto;
+	height: 100px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#header input[type='text'] {
+	-webkit-box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+    width: 210px;
+	border: 0px;
+	height: 27px;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: 6px;
+	margin-left: 10px;
+	outline: 0px;
+	padding: 5px 10px;
+	font-size: 1.5em;
+}
+
+#header h2, input {
+	float: left;
+}
+
+#header h2 {
+	margin-left: 25%;
+}
+
+#cal {
+	position: relative;
+	min-width: 861px;
+	width: auto;
+	background: #FFF;
+	height: 873px;
+	border-left: 1px solid #C7C6C8;
+	text-align: center;
+	padding-left: 40px;
+}
+
+#labels {
+	position: absolute;
+	padding-top: 26px;
+}
+
+.timeLabel {
+	margin-bottom: 35.1px;
+	margin-left: -10px;
+	font-size: 10pt;
+	color: #C7C6C8;
+}
+
+#tabs {
+	position: relative;
+	top: 0px;
+	margin-left: -40px;
+}
+
+#dates {
+	position: relative;
+	z-index: 9;
+	top: 25px;
+	width: 99.5%;
+}
+
+.date {
+	color: #888;
+	display: inline-block;
+	width: 18.4%;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.day {
+	position: relative;
+	float: left;
+	top: 29px;
+	display: inline-block;
+	width: 18.4%;
+	margin-top: 7px;
+	border-left: 1px solid #E2E6E8;
+	text-align: center;
+}
+
+.day:nth-child(3) {
+	margin-left: 3.5%;
+}
+
+.day:nth-child(7) {
+	border-right: 1px solid #E2E6E8;
+}
+
+.hour {
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	position: relative;
+	border-top: 1px solid #E2E6E8;
+}
+
+.hour:last-child {
+	border-bottom: 1px solid #E2E6E8;
+}
+
+.event {
+	text-align: left;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	min-height: 20px;
+	color: #FFF;
+	opacity: 0.7;
+	border-radius: 3px;
+}
+
+.event span.title {
+	padding-top:5 px;
+	margin: 5px 0px 0px 5px;
+}

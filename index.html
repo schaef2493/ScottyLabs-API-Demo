@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendar</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/calendar.js"></script>
+</head>
+<body onload="addHours(); return false;">
+
+<div id='header'>
+	<h2>Enter a course number (like 15112)</h2>
+	<input type="text" name="course" id="newCourseInput" placeholder="+ Course number" /> 
+</div>
+
+<div id='cal'>
+	<div id='tabs'></div>
+
+	<div id='dates'>
+		<div class='date'>Monday</div>
+		<div class='date'>Tuesday</div>
+		<div class='date'>Wednesday</div>
+		<div class='date'>Thursday</div>
+		<div class='date'>Friday</div>
+	</div>
+	
+	<div class='day' id='0'></div>
+	<div class='day' id='1'></div>
+	<div class='day' id='2'></div>
+	<div class='day' id='3'></div>
+	<div class='day' id='4'></div>
+
+	<div id="labels">
+		<div class="timeLabel">7 am</div>
+		<div class="timeLabel">8 am</div>
+		<div class="timeLabel">9 am</div>
+		<div class="timeLabel">10 am</div>
+		<div class="timeLabel">11 am</div>
+		<div class="timeLabel">12 pm</div>
+		<div class="timeLabel">1 pm</div>
+		<div class="timeLabel">2 pm</div>
+		<div class="timeLabel">3 pm</div>
+		<div class="timeLabel">4 pm</div>
+		<div class="timeLabel">5 pm</div>
+		<div class="timeLabel">6 pm</div>
+		<div class="timeLabel">7 pm</div>
+		<div class="timeLabel">8 pm</div>
+		<div class="timeLabel">9 pm</div>
+	</div>
+</div>
+
+</body>
+</html>
